@@ -1,0 +1,39 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Next.js
+/.next/
+/out/
+/.data/
+
+# Production
+/build
+
+# Environment variables
+.env*
+!.env.example
+
+# Apps Script
+code.gs
+setup.gs
+
+# Uploads
+public/uploads/*
+!public/uploads/.gitkeep
+
+# System & Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+.env.local
+documentation
+references

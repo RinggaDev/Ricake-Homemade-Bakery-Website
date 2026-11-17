@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 620" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #FFFFFF; }
+      .border { stroke: #3A1D10; stroke-width: 3; }
+      .text-dark { fill: #3A1D10; font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif; }
+      .text-red { fill: #D92525; font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif; font-weight: 900; }
+      .accent { fill: #FEEA7A; }
+    </style>
+  </defs>
+
+  <!-- Background Card with Retro Border & Shadow -->
+  <rect x="10" y="10" width="460" height="600" rx="20" fill="#3A1D10" />
+  <rect x="6" y="6" width="460" height="600" rx="20" class="bg" stroke="#3A1D10" stroke-width="3" />
+
+  <!-- Top Header QRIS Standard -->
+  <rect x="6" y="6" width="460" height="85" rx="18" fill="#FDFBF7" />
+  <line x1="6" y1="90" x2="466" y2="90" stroke="#3A1D10" stroke-width="2" />
+
+  <!-- QRIS Wordmark -->
+  <text x="35" y="55" class="text-red" font-size="34" letter-spacing="1">QRIS</text>
+  <text x="35" y="72" class="text-dark" font-size="9" font-weight="700" letter-spacing="1">QUICK RESPONSE CODE INDONESIAN STANDARD</text>
+  
+  <!-- GPN Logo Text Badge -->
+  <rect x="375" y="28" width="65" height="38" rx="6" fill="#FEEA7A" stroke="#3A1D10" stroke-width="1.5" />
+  <text x="390" y="52" class="text-dark" font-size="14" font-weight="900" letter-spacing="0.5">GPN</text>
+
+  <!-- Merchant Info -->
+  <g transform="translate(0, 110)">
+    <text x="240" y="20" text-anchor="middle" class="text-dark" font-size="18" font-weight="800" letter-spacing="0.5">RICAKE HOMEMADE BAKERY</text>
+    <text x="240" y="38" text-anchor="middle" class="text-dark" font-size="11" font-weight="600" fill-opacity="0.7">NMID: ID1024356789012 - A01</text>
+  </g>
+
+  <!-- QR Code Container Box -->
+  <g transform="translate(65, 170)">
+    <rect x="0" y="0" width="350" height="350" rx="16" fill="#FFFFFF" stroke="#3A1D10" stroke-width="2.5" />
+    
+    <!-- Top Left Eye -->
+    <rect x="25" y="25" width="75" height="75" rx="10" fill="#3A1D10" />
+    <rect x="37" y="37" width="51" height="51" rx="6" fill="#FFFFFF" />
+    <rect x="47" y="47" width="31" height="31" rx="4" fill="#3A1D10" />
+
+    <!-- Top Right Eye -->
+    <rect x="250" y="25" width="75" height="75" rx="10" fill="#3A1D10" />
+    <rect x="262" y="37" width="51" height="51" rx="6" fill="#FFFFFF" />
+    <rect x="272" y="47" width="31" height="31" rx="4" fill="#3A1D10" />
+
+    <!-- Bottom Left Eye -->
+    <rect x="25" y="250" width="75" height="75" rx="10" fill="#3A1D10" />
+    <rect x="37" y="262" width="51" height="51" rx="6" fill="#FFFFFF" />
+    <rect x="47" y="272" width="31" height="31" rx="4" fill="#3A1D10" />
+
+    <!-- Geometric Decorative Data Dots & Grid Blocks -->
+    <!-- Col 1 -->
+    <rect x="115" y="25" width="18" height="18" rx="3" fill="#3A1D10" />
+    <rect x="145" y="25" width="35" height="18" rx="3" fill="#3A1D10" />
+    <rect x="195" y="25" width="18" height="35" rx="3" fill="#3A1D10" />
+    <rect x="220" y="42" width="18" height="18" rx="3" fill="#3A1D10" />
+
+    <!-- Col 2 -->
+    <rect x="115" y="55" width="35" height="18" rx="3" fill="#3A1D10" />
+    <rect x="160" y="55" width="18" height="35" rx="3" fill="#3A1D10" />
+    <rect x="220" y="70" width="18" height="30" rx="3" fill="#3A1D10" />
+
+    <!-- Middle Cluster -->
+    <rect x="25" y="115" width="35" height="18" rx="3" fill="#3A1D10" />
+    <rect x="70" y="115" width="18" height="35" rx="3" fill="#3A1D10" />
+    <rect x="100" y="100" width="18" height="18" rx="3" fill="#3A1D10" />
+    <rect x="130" y="105" width="40" height="20" rx="3" fill="#3A1D10" />
+    <rect x="180" y="100" width="20" height="35" rx="3" fill="#3A1D10" />
+    <rect x="210" y="110" width="25" height="25" rx="3" fill="#3A1D10" />
+    <rect x="245" y="115" width="35" height="18" rx="3" fill="#3A1D10" />
+    <rect x="290" y="115" width="35" height="35" rx="3" fill="#3A1D10" />
+
+    <rect x="25" y="160" width="18" height="35" rx="3" fill="#3A1D10" />
+    <rect x="55" y="170" width="35" height="18" rx="3" fill="#3A1D10" />
+    <rect x="100" y="140" width="30" height="30" rx="3" fill="#3A1D10" />
+    <rect x="140" y="140" width="20" height="40" rx="3" fill="#3A1D10" />
+    <rect x="175" y="145" width="35" height="18" rx="3" fill="#3A1D10" />
+    <rect x="220" y="145" width="18" height="35" rx="3" fill="#3A1D10" />
+    <rect x="250" y="160" width="30" height="20" rx="3" fill="#3A1D10" />
+    <rect x="290" y="160" width="35" height="18" rx="3" fill="#3A1D10" />
+
+    <rect x="25" y="210" width="35" height="25" rx="3" fill="#3A1D10" />
+    <rect x="70" y="200" width="18" height="35" rx="3" fill="#3A1D10" />
+    <rect x="100" y="185" width="45" height="20" rx="3" fill="#3A1D10" />
+    <rect x="155" y="195" width="20" height="40" rx="3" fill="#3A1D10" />
+    <rect x="185" y="180" width="25" height="25" rx="3" fill="#3A1D10" />
+    <rect x="220" y="195" width="20" height="35" rx="3" fill="#3A1D10" />
+    <rect x="250" y="190" width="40" height="18" rx="3" fill="#3A1D10" />
+    <rect x="300" y="190" width="25" height="35" rx="3" fill="#3A1D10" />
+
+    <!-- Bottom Cluster -->
+    <rect x="115" y="250" width="35" height="18" rx="3" fill="#3A1D10" />
+    <rect x="160" y="245" width="18" height="35" rx="3" fill="#3A1D10" />
+    <rect x="190" y="250" width="35" height="18" rx="3" fill="#3A1D10" />
+    <rect x="235" y="240" width="20" height="40" rx="3" fill="#3A1D10" />
+    <rect x="265" y="245" width="35" height="20" rx="3" fill="#3A1D10" />
+    <rect x="310" y="240" width="15" height="35" rx="3" fill="#3A1D10" />
+
+    <rect x="115" y="280" width="20" height="45" rx="3" fill="#3A1D10" />
+    <rect x="145" y="290" width="35" height="18" rx="3" fill="#3A1D10" />
+    <rect x="190" y="280" width="20" height="45" rx="3" fill="#3A1D10" />
+    <rect x="220" y="290" width="35" height="18" rx="3" fill="#3A1D10" />
+    <rect x="265" y="280" width="25" height="45" rx="3" fill="#3A1D10" />
+    <rect x="300" y="285" width="25" height="20" rx="3" fill="#3A1D10" />
+
+    <!-- Center Logo Badge -->
+    <rect x="135" y="135" width="80" height="80" rx="14" fill="#FEEA7A" stroke="#3A1D10" stroke-width="2" />
+    <text x="175" y="180" text-anchor="middle" class="text-dark" font-size="14" font-weight="900" letter-spacing="0.5">RICAKE</text>
+    <text x="175" y="196" text-anchor="middle" class="text-dark" font-size="8" font-weight="700">BAKERY</text>
+  </g>
+
+  <!-- Bottom Accepted Payments Banner -->
+  <g transform="translate(20, 540)">
+    <rect x="0" y="0" width="440" height="50" rx="12" fill="#FDFBF7" stroke="#3A1D10" stroke-width="1.5" />
+    <text x="220" y="20" text-anchor="middle" class="text-dark" font-size="9" font-weight="700" letter-spacing="1">MENERIMA PEMBAYARAN DARI SEMUA BANK &amp; E-WALLET</text>
+    <text x="220" y="38" text-anchor="middle" class="text-dark" font-size="11" font-weight="800" fill-opacity="0.85">BCA • Mandiri • BRI • BNI • GoPay • OVO • DANA • ShopeePay</text>
+  </g>
+</svg>
